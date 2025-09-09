@@ -115,7 +115,7 @@ const HomeCarsoual = () => {
       </motion.div>
 
    <div className="home-container-carousel">
-      <Slider {...settings}>
+      <Slider {...settings} className="home">
         <div className="car">
           <div className="image-container">
             <img src={ExampleCarouselImage} className="d-block w-100" alt="Moringa Mittai" />
