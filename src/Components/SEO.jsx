@@ -3,16 +3,16 @@ import { Helmet } from 'react-helmet-async';
 import logo from "../assets/Images/logo.png"
 
 const SEO = ({ 
-  title = 'Default Title',
-  description = 'Default description for your website',
-  keywords = 'default, keywords',
+  title = 'Guru uruthi',
+  description = 'Welcome to our Guru uruthi. Discover amazing products and services',
+  keywords = 'home, products, services, company',
   image = logo,
-  url = 'https://guru-vite.vercel.app',
+  url = 'https://www.guruvalueproducts.com',
   type = 'website',
   author = 'Guru uruthi',
   siteName = 'guruvalueproducts'
 }) => {
-  const siteUrl =  'https://guru-vite.vercel.app';
+  const siteUrl =  'https://www.guruvalueproducts.com';
   const fullUrl = `${siteUrl}${url}`;
   const fullImageUrl = image.startsWith('http') ? image : `${siteUrl}${image}`;
 
